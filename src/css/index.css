@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body,html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-size: 14px;
+	font-family: "Roboto", "Microsoft Yahei","微软雅黑",Verdana, Geneva, sans-serif;
+	padding-top: 45px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+section.box{
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+section.box .number{
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.box .number ._a_{
+	display: inline-block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+section.box .number ._a_a_{
+	width: 2.6em;
+    height: 2.6em;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.6em;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(249, 110, 87);
+}
+section.box .number ._a_b_{
+	margin: -0.5em auto 0.3em;
+    width: 0px;
+    border-top-width: 1.1em;
+    border-top-style: solid;
+    border-top-color: rgb(249, 110, 87);
+    border-left-width: 1em !important;
+    border-left-style: solid !important;
+    border-left-color: transparent !important;
+    border-right-width: 1.12em !important;
+    border-right-style: solid !important;
+    border-right-color: transparent !important;
+}
+section.box .number ._a_c_{
+	border-top-color: rgb(249, 110, 87);
+    display: inline-block;
+    font-size: 130%;
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding: 1px 5px 0px;
+    color: rgb(95, 156, 239);
+}
+section.box .number ._a_a_a_{
+	width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8em;
+    border-radius: 50%;
+    margin: 0.36em 0px 0.35em 0.44em;
+    background-color: white;
+}
+section.box .number ._a_a_a_a_{
+	width: 100%;
+    height: 100%;
+    color: rgb(81, 80, 78);
+	}
+section.box .imagesbox{margin: 0.5em auto; text-align: center;}
+section.box .imagesbox img{
+	vertical-align: middle;
+    max-width: 100%;
+    max-width: 100%;
+    border: 8px solid rgb(237, 236, 235);
+	}
+section.box .depict{
+	display: inline-block;
+	width: 100%;
+	border: 2px dotted rgb(192, 200, 209);
+	padding: 10px;
+	background-color: transparent;
+	float: left;
+	height: auto;
+	margin-bottom: 10px;
+}
+section.box .depict p{
+	float: left;
+	height: 25px;
+	width: 50%;
+}
+section.bu{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+.button{display: inline-block;
+    border-radius: 5px;
+    line-height: 2.3;
+    font-size: 100%;
+    color: rgb(11, 10, 10);
+    width: 100%;
+    background-color: rgb(160, 160, 160);
+	}
+.line{    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: rgb(249, 110, 87);
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+}
+.footbar {
+	font-size: 14px;
+	line-height: 45px;
+	float: left;
+	height: 45px;
+	width: 100%;
+	margin-top: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #eee;
+	text-align: center;
+}
